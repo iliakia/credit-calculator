@@ -1,0 +1,50 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: #2F4778;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: beige;
+    margin-bottom: 13%;
+    font-size: 20px;
+}
+input{
+    height: 30px;
+    width: 50%;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.calculator{
+    width: 75%;
+    margin: 0 auto;
+}
+.calculator-input{
+    display: flex;
+    justify-content: center;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    width: 50%;
+}
+button{
+    height: 50%;
+    border-color: #fff;
+    border-radius: 7px;
+    color: #fff;
+    background: #2F4778;
+}
+.p-total-value{
+    color: #fff;
+    font-size: larger;
+}
+
+    
