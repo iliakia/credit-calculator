@@ -13,16 +13,21 @@
             <H1>Калькулятор итоговой суммы кредита</H1>
         </div>
         <div class="calculator">
+            <div class="calculator-input"><div class="clear">Очистить таблицу</div></div>
             <div class="calculator-input"><input type="number" min=100 max=50000 id="price" placeholder="Введите сумму, которую хотите взять в кредит." value></div>
-            <div class="calculator-input"><input type="number" min=6 max = 120 id="time" placeholder="Введите срок в месяцах" value></div>
+            <div class="calculator-input"><input type="number" min=1 max = 50 id="time" placeholder="Введите срок в годах" value></div>
+            <div class="calculator-input"><input type="number" min=1 max = 100 id="bid" placeholder="Введите годовую процентную ставку" value></div>
             <div class="calculator-input">
                 <div class="total">
                     <button class="button">Расчитать</button>
-                    <div class="total-value"><p class="p-total-value">0</p></div>
+                    <div class="total-value"><p class="p-total-value" id="ptotalvalue">0</p></div>
                 </div>
             </div>
         </div>
     </section>
     <script src="script.js"></script>
+    <footer>
+        <i><p>©Andrienko_ilyakia</p></i>
+    </footer>
 </body>
 </html>
